@@ -19,10 +19,19 @@ export default function TextForm(props) {
 
   return (
     <>
-      <div className="container">
+      <div
+        className="container"
+        style={{
+          color: props.mode === "light" ? "black" : "white",
+        }}
+      >
         <h1>{props.heading}</h1>
         <div className="mb-3">
           <textarea
+            style={{
+              backgroundColor: props.mode === "light" ? "white" : "grey",
+              color: props.mode === "light" ? "black" : "white",
+            }}
             value={text}
             className="form-control"
             id="myBox"
@@ -37,14 +46,23 @@ export default function TextForm(props) {
           Convert To Lowercase
         </button>
       </div>
-      <div className="container my-3">
+      <div
+        className="container my-3"
+        style={{
+          color: props.mode === "light" ? "black" : "white",
+        }}
+      >
         <h2>Your test summary</h2>
         <p>
           {text.split(" ").length} words and {text.length} characters
         </p>
         <p>{0.008 * text.split(" ").length} Minutes to read</p>
         <h2>Preview</h2>
-        <p>{text}</p>
+        <p>
+          {text.length > 0
+            ? text
+            : "Enter something in above textbox to preview it here"}
+        </p>
       </div>
     </>
   );
