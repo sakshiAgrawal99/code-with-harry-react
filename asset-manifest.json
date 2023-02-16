@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/code-with-harry-react/static/css/main.e6c13ad2.css",
+    "main.js": "/code-with-harry-react/static/js/main.0daa6838.js",
+    "static/js/787.0cbdef75.chunk.js": "/code-with-harry-react/static/js/787.0cbdef75.chunk.js",
+    "index.html": "/code-with-harry-react/index.html",
+    "main.e6c13ad2.css.map": "/code-with-harry-react/static/css/main.e6c13ad2.css.map",
+    "main.0daa6838.js.map": "/code-with-harry-react/static/js/main.0daa6838.js.map",
+    "787.0cbdef75.chunk.js.map": "/code-with-harry-react/static/js/787.0cbdef75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0daa6838.js"
+  ]
+}
